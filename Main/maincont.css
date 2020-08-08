@@ -70,7 +70,8 @@ select{
     background-size: cover;
     background-image: url(../img/background.jpg);
     background-position: center;
-    background-repeat: no-repeat;background-image: ;
+    background-repeat: no-repeat;
+    margin-top: -100px;
 }
 #underlay{
     width: 100%;

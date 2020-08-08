@@ -94,6 +94,9 @@
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  position: absolute;
+  top: 800px;
+  left: 0;
 }
 
 #container #listings {
@@ -492,6 +495,41 @@ nav #right #register, nav #right #login {
 nav #right #register h5, nav #right #login h5 {
   margin-left: 0.5rem;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1083px) {
+  #sub-footer {
+    margin-top: 100px;
+  }
+  #sub-footer #underlay #services {
+    margin-top: 10px;
+  }
+  #sub-footer #underlay #services i {
+    font-size: 2rem;
+  }
+  #sub-footer #underlay #services div h4 {
+    font-size: 1rem;
+  }
+  #sub-footer #underlay #services div p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #sub-footer {
+    height: 800px;
+  }
+  #sub-footer #underlay {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
 }
 
 @media screen and (max-width: 800px) {
