@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(232, 232, 232);
+}
+
+
+#vue-login-app{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#vue-login-app #login-container{
+    height: 420px;
+    width: 370px;
+    border: 1px solid rgba(71, 71, 71, 0.6);
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+#header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(30, 56, 110);
+    display: flex;
+    align-items: center;
+}
+
+#message{
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid rgba(71, 71, 71, 0.6);
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+#message p{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+i{
+    color: #fff;
+    margin: 1rem;
+    font-size: 2rem;
+}
+h3{
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 7px;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+}
+form div{
+    width: 90%;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: rgb(30, 56, 110);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
+button:hover{
+    background-color: #fff;
+    color: rgb(30, 56, 110);
+}

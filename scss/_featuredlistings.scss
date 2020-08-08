@@ -1,0 +1,131 @@
+
+#welcomer{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    #underlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(34, 161, 68, 0.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            color: #fff;
+            font-size: 2.5rem;
+            
+        }
+        p{
+            color: #fff;
+            font-size: 1rem;
+        }
+    }
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    #listings{
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: space-evenly;
+        flex-wrap: wrap;
+        #house{
+            height: 520px;
+            width: 320px;
+            border: 1px solid #111;
+            display: flex;
+            flex-direction: column;
+            #upper{
+                width: 100%;
+                height: 40%;
+                background-size: cover;
+                background-position: center;
+                #price{
+                    width: 100px;
+                    height: 30px;
+                    background-color: rgba(34, 161, 68, 0.7);
+                    margin: 1rem;
+                    h5{
+                        color: #fff;
+                        margin-left: 6px;
+                    }
+                }
+            }
+            #lower{
+                width: 100%;
+                height: 60%;
+                #location{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    border-bottom: 0.6px solid rgba(59, 59, 59,0.7);
+                    h5{
+                        font-weight: bold;
+                    }
+                    div{
+                        display: flex;
+                        justify-content: space-evenly;
+                        width: 70%;
+                        i{
+                            color: rgb(32, 212, 80);
+                        }
+                        p{
+                            font-weight: 600;
+                        }
+                    }
+                }
+                #small-details{
+                    margin-top: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+                    border-bottom: 0.6px solid rgba(59, 59, 59,0.7);
+
+                    #sqrft-garage,#bedr-bath{
+                        display: flex;
+                        justify-content: space-around;
+                        width: 100%;
+                        div{
+                            display: flex;
+                            i{
+                                margin-top: 3px;
+                                margin-right: 4px;
+                            }
+                            i,p{
+                                color: rgb(13, 191, 114);
+                            }
+                        }
+                    }
+                }
+                #realtor{
+                    width: 85%;
+                    margin: 0 auto;
+                    #realtor-name,#listing-date{
+                        display: flex;
+                        i{
+                            margin-top: 4px;
+                            color: rgb(13, 191, 114);
+                        }
+                        p{
+                            margin-left: 5px;
+                            color: rgb(13, 191, 114);
+                        }
+                    }
+                }
+                button{
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+
+#information{
+    width: 80%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+#information #about_us{
+    width: 60%;
+}
+#information #about_us img{
+    width: 90%;
+    height: 350px;
+}
+#details_about_us{
+    width: 80%;
+    margin-top: 30px;
+    font-weight: 500;
+    height: 500px;
+}
+
+#saler_of_month{
+    width: 20%;
+    height: 600px;
+    border: 1px solid #111;
+}
+#saler_of_month img{
+    width: 100%;
+    height: 300px;
+}
+#saler_of_month h5,#saler_of_month h6,#saler_of_month p{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+#saler_of_month h5{
+    font-weight: 500;
+}
+#we_work_for_you{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 950px;
+    background-color: rgb(62, 63, 64);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#our_team{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    top: 1300px;
+}
+#realtors{
+    width: 85%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 auto;
+    top: 1400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#realtors #realtor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 400px;
+}
+#realtors #realtor div{
+    display: flex;
+}
+#realtors #realtor div i{
+    margin-top: 3px;
+    margin-right: 4px;
+}
+#realtors_img{
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+}
+#i_reward{
+    color: rgb(16, 179, 124);
+}
+#i_envelope{
+    color: rgb(194, 190, 8);
+}

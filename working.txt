@@ -1,0 +1,36 @@
+$userView = new Userview();
+                        $listings = $userView->realtorsListingsDetails($realtor);
+                        for($i = 0; $i<sizeof($listings); $i++){
+                            $HouseId = $listings[$i]['properties_id'];
+                            $Price = $listings[$i]['price'];
+                            $Bedrooms = $listings[$i]['bedrooms'];
+                            $Bathrooms = $listings[$i]['bathroomss'];
+                            $Garage = $listings[$i]['garage'];
+                            $square_foot = $listings[$i]['square_foot'];
+                            $lot_size = $listings[$i]['lot_size'];
+                            $listing_date = $listings[$i]['listing_date'];
+                            $state = $listings[$i]['state'];
+                            $street = $listings[$i]['street'];
+                            $active_listing = $listings[$i]['active_listing']; //check if the house is listed or not (for the checkbox);
+                            if($active_listing == 'published'){
+                                $checkbox = "<th scope=col><input data-active=published data-propId=$HouseId @change=change type=checkbox checked></th>";
+                            }else{
+                                $checkbox = "<th scope=col><input data-active=draft data-propId=$HouseId @change=change type=checkbox></th>";  
+                            }
+                            echo "
+                                <tr>
+                                    <th scope='col'>$HouseId</th>
+                                    $checkbox
+                                    <th scope='col'>$Price</th>
+                                    <th scope='col'>$Bedrooms</th>
+                                    <th scope='col'>$Bathrooms</th>
+                                    <th scope='col'>$Garage</th>
+                                    <th scope='col'>$square_foot</th>
+                                    <th scope='col'>$lot_size</th>
+                                    <th scope='col'>$listing_date</th>
+                                    <th scope='col'>$state</th>
+                                    <th scope='col'>$street</th>
+                                    <th scope='col'><button v-on:click='deleteListing' class='btn btn-danger'>Delete</button><th>
+                                </tr>
+                            ";
+                        }

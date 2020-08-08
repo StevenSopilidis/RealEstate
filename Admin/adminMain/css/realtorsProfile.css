@@ -1,0 +1,30 @@
+#realtors-details{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#realtors_profileImage{
+    border-radius: 20%;
+}
+#realtors_username{
+    color: #111;
+}
+button{
+    margin: 0 auto;
+}
+
+.inputfile {
+	width: 0.1px;
+    height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+    background-color: red;
+}
+label{
+    cursor: pointer;
+}

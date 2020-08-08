@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(30, 56, 110);
+}
+
+
+#controlls{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#controlls div{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    font-size: 3rem;
+    color: #fff;
+}
+
+h4{
+    color: #fff;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    color: #fff;
+}
+
+#main_heading{
+    margin: 2rem;
+}
+
+#options{
+    position: absolute;
+    top: 75px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+}
+
+#controls{
+    width: 25%;
+    margin: 2rem;
+}
+#controls div{
+    width: 100%;
+    position: relative;
+}
+
+#auth,#contact,#Listings{
+    margin-top: 2rem;
+}
+
+
+#controls div #header{
+    width: 100%;
+    background-color: rgb(13, 191, 114);
+}
+
+
+#controls div #header p{
+    color: #fff;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+#controls div #body{
+    width: 100%;
+    margin-top: -20px;
+}
+
+#controls div #body #users,#controls div #body #realtors{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#left p{
+    cursor: pointer;
+}
+
+
+#right{
+    display: flex;
+    justify-content: space-between;
+}
+#right div{
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+#add-contr{
+    color: rgb(13, 191, 114);
+}
+#change-contr{
+    color: rgb(245, 198, 10);
+}
+#realtors-actions{
+    width: 300px;
+    height: 500px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    flex-direction: column;
+}
+#realtors-actions #header h5{
+    margin: 1rem;
+}
+
+#realtors-actions #property div,#realtors-actions #addproperty div{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+#realtors-actions #property div h6,#realtors-actions #addproperty div h6{
+    margin-left: 1rem;
+}
+
+#realtors-actions #property p,#realtors-actions #addproperty p{
+    margin-left: 4rem;
+    font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 800px){
+    #options{
+        flex-direction: column;
+    }
+    #controls{
+        width: 80%;
+    }
+}
