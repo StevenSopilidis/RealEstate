@@ -122,6 +122,10 @@
                         </div>
                     </div>
                 </div>
+
+                <div id="footer">
+                    <p>Copyright &copy; StevenInc</p>
+                </div>
             </div>
 
             </div>
