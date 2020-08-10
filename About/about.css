@@ -6,7 +6,7 @@
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    top: 40%;
+    top: 36%;
     display: flex;
     justify-content: space-around;
 }
@@ -149,22 +149,14 @@
         font-size: 12px;
     }
 }
-@media screen and (max-width: 587px){
-    #saler_of_month{
-        height: 640px;
-    }
-    #we_work_for_you{
-        margin-top: 60px;
-    }
-    #team{
-        top: 1360px;
-    }
-}
-@media screen and (max-width: 519px){
-    #we_work_for_you{
-        margin-top: 70px;
-    }
-    #team{
-        top: 1380px;
+@media screen and (max-width: 588px){
+   #saler_of_month{
+       display: none;
+   }
+   #information{
+       width: 100%;
+   }
+   #information #about_us{
+        width: 80%;
     }
 }
