@@ -19,7 +19,7 @@
 }
 #details_about_us{
     width: 80%;
-    margin-top: 30px;
+    margin-top: 17px;
     font-weight: 500;
     height: 500px;
 }
@@ -52,26 +52,24 @@
     align-items: center;
     justify-content: space-evenly;
 }
-#our_team{
+#team{
     position: absolute;
+    top: 1350px;
     left: 0;
     right: 0;
-    margin-left: 0;
-    margin-right: 0;
-    top: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 #realtors{
     width: 85%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin: 0 auto;
-    top: 1400px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 #realtors #realtor{
     display: flex;
@@ -97,4 +95,76 @@
 }
 #i_envelope{
     color: rgb(194, 190, 8);
+}
+
+@media screen and (max-width: 1765px){
+    #mvp_text{
+        font-size: 15px;
+    }
+    #saler_of_month{
+        width: 24%;
+    }
+}
+@media screen and (max-width: 1439px){
+    #mvp_text{
+        font-size: 15px;
+    }
+    #details_about_us{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1312px){
+    #mvp_text{
+        font-size: 14px;
+    }
+    #details_about_us{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1180px){
+    #information{
+        width: 95%
+    }
+    #saler_of_month{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 854px){
+    #we_work_for_you{
+        margin-top: 40px;
+    }
+    #details_about_us{
+        font-size: 14px;
+        width: 100%;
+    }
+    #team{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 730px){
+    #saler_of_month{
+        height: 620px;
+    }
+    #mvp_text{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 587px){
+    #saler_of_month{
+        height: 640px;
+    }
+    #we_work_for_you{
+        margin-top: 60px;
+    }
+    #team{
+        top: 1360px;
+    }
+}
+@media screen and (max-width: 519px){
+    #we_work_for_you{
+        margin-top: 70px;
+    }
+    #team{
+        top: 1380px;
+    }
 }

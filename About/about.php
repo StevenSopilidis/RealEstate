@@ -64,37 +64,37 @@
             <button class='btn btn-success'>View Our Featured Listings</button>
         </div>
         <!--Display All Realtors-->
-        <h2 class='text-center' id='our_team'>Our Team</h2>
-        <div id='realtors'>
-            
-            <?php 
-                //load all realtors
-                $realtors = $userView->getRealtors();
-                for($i = 0;$i<sizeof($realtors); $i++){
-                    //get the email img and name of the realtor
-                    $name = $realtors[$i]['username'];
-                    $email = $realtors[$i]['email'];
-                    $img = $realtors[$i]['image_profile'];
-                    echo "
-                    <div id='realtor'>
-                        <img id='realtors_img' src='../img/$img' alt='Realtors image'>
-                        <h6>$name</h6>
-                        <div>
-                            <i id='i_reward' class='fas fa-award'></i>
-                            <p>Realtor</p>
+        <div id="team">
+            <h2 class='text-center' id='our_team'>Our Team</h2>
+            <div id='realtors'>
+                <?php 
+                    //load all realtors
+                    $realtors = $userView->getRealtors();
+                    for($i = 0;$i<sizeof($realtors); $i++){
+                        //get the email img and name of the realtor
+                        $name = $realtors[$i]['username'];
+                        $email = $realtors[$i]['email'];
+                        $img = $realtors[$i]['image_profile'];
+                        echo "
+                        <div id='realtor'>
+                            <img id='realtors_img' src='../img/$img' alt='Realtors image'>
+                            <h6>$name</h6>
+                            <div>
+                                <i id='i_reward' class='fas fa-award'></i>
+                                <p>Realtor</p>
+                            </div>
+                            <div>
+                                <i id='i_envelope' class='fas fa-envelope-open'></i>
+                                <p>$email</p>
+                            </div>
                         </div>
-                        <div>
-                            <i id='i_envelope' class='fas fa-envelope-open'></i>
-                            <p>$email</p>
-                        </div>
-                    </div>
-                    ";
+                        ";
 
-                }
-            ?>
+                    }
+                ?>
 
+            </div>
         </div>
-
 
     </div>
 

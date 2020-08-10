@@ -265,7 +265,7 @@ class Userview extends User{
         <div>
             <h5>Seller Of The Month</h5>
             <h6 class='text-success'>$username</h6>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eaque quod reiciendis nihil animi dolore, eius placeat, quisquam aperiam quasi harum, maxime itaque? Accusantium ex quasi asperiores accusamus fugiat, sed assumenda vitae earum doloribus odit iste, dolores consequuntur, dolore similique?</p>
+            <p id='mvp_text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eaque quod reiciendis nihil animi dolore, eius placeat, quisquam aperiam quasi harum, maxime itaque? Accusantium ex quasi asperiores accusamus fugiat, sed assumenda vitae earum doloribus odit iste, dolores consequuntur, dolore similique?</p>
         </div>";
     }
 
