@@ -36,7 +36,7 @@
                         }else{
                             //set a session so we know if an admin has loged in or not
                             $_SESSION['adminLoged'] = $_SESSION['username'];
-                            header('Location: ../adminMain/adminPanel.php');
+                            header('Location: ./adminMain/adminPanel.php');
                         };
                     }
                 ?>

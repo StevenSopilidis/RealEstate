@@ -152,15 +152,8 @@
         margin-top: 20px;
     }
 }
-@media screen and (max-width: 730px){
-    #saler_of_month{
-        height: 620px;
-    }
-    #mvp_text{
-        font-size: 12px;
-    }
-}
-@media screen and (max-width: 588px){
+
+@media screen and (max-width: 750px){
    #saler_of_month{
        display: none;
    }

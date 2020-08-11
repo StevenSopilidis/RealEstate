@@ -1,5 +1,5 @@
 <?php
-include '../../includes/autoload.inc.php';
+include '../includes/autoload.inc.php';
 //check if the user has admin status
 
 $username = $_POST['username'];
